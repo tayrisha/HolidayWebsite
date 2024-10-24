@@ -1,0 +1,85 @@
+/* Basic reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Home Page Banner */
+.home-banner {
+    background: url('../html/pictures/christmas-banner.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.home-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Content for other pages */
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.content img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-block {
+    margin-left: 20px;
+    max-width: 60%;
+}
+
+.text-block h2 {
+    margin-bottom: 15px;
+}
+
+.text-block p {
+    text-align: justify;
+}
